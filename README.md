@@ -142,3 +142,37 @@ static: certificate has an existing certificate-key pair that was previously imp
 ## License
 
 This library is licensed under the Apache 2.0 License.
+
+<!-- PLATFORM_SUPPORT_START -->
+# Platform Support
+
+## Tier 1 — Fully Supported & Tested in CI
+
+| Platform | Architecture |
+|----------|--------------|
+| al2 | x64 |
+| alpine 3,16 | arm64, armv7, armv6 |
+| alpine 3.16 | x64, x86 |
+| fedora 34 | x86_64 |
+| macOS-14 | arm64 |
+| manylinux2014 | x86_64, x86(32 bit) |
+| openSUSE leap | x86_64 |
+| raspbian-bullseye | armv7 |
+| rhel8 | x64 |
+| windows-2025 | x86, x64 |
+
+## Tier 2 — Supported (Not Tested in CI)
+
+| Platform | Architecture |
+|----------|--------------|
+
+## Supported Tools
+
+| Name | Version | Platforms |
+|------|---------|-----------|
+| CMake | 3,9+ | All |
+| Clang | 6,8,9,10,11,12,15,17,latest | Linux |
+| gcc | 4.8,5,6,7,8,9,10,11 | Linux |
+| msvc | 15, 17 | windows |
+
+<!-- PLATFORM_SUPPORT_END -->
